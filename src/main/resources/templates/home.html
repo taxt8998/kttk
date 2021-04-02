@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <h2>Trang chủ</h2>
+    <h3 th:text="${user.getFullnameByFullnameId().getFirstname()}"></h3>
+    <a href="">Tạo giỏ hàng</a>
+    <a href="">Tạo order</a>
+    <a href="">Thanh toán</a>
+</body>
+</html>

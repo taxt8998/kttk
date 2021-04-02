@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <h2>Đăng ký</h2>
+    <form action="/doRegister" method="post">
+        <table>
+            <tr>
+                <td><label>Họ *</label></td>
+                <td><input type="text" id="lastname" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td><label>Tên *</label></td>
+                <td><input type="text" required id="firstname" name="firstname"></td>
+            </tr>
+            <tr>
+                <td><label>Email *</label></td>
+                <td><input type="email" required id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Số điện thoại *</label></td>
+                <td><input type="text" required id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label>Mật khẩu *</label></td>
+                <td><input type="password" required id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label>Tỉnh/Thành phố</label></td>
+                <td><input type="text" required id="city" name="city"></td>
+            </tr>
+            <tr>
+                <td><label>Quận</label></td>
+                <td><input type="text" required id="district" name="district"></td>
+            </tr>
+            <tr>
+                <td><label>Đường, phố</label></td>
+                <td><input type="text" required id="street" name="street"></td>
+            </tr>
+            <tr>
+                <td><label>Đỉa chỉ</label></td>
+                <td><input type="text" required id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Đăng ký</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

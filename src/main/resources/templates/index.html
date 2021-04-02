@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <h2>Đăng nhập</h2>
+    <form action="/doLogin" method="post" name="login" id="login">
+        <table>
+            <tr>
+                <td><label>Số điện thoại</label></td>
+                <td><input type="text" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label>Mật khẩu</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Đăng nhập</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button"><a href="/register" style="text-decoration: none">Đăng ký</a></button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
